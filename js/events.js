@@ -8,15 +8,15 @@ function frameIt(){
   $('img').addClass('tasty').on('load', function(){
 });
 }
-
+/*
 function pressIt(){
-  $(document).on('keydown', function(key) {
+  $('input').on('keydown', function(key) {
   if(key.which == 71){
       alert('g was pressed');
   });
   }
 }
-
+*/
 /*
 function submitIt(){
   $("#typing").trigger('submit').on("submit", function() {
