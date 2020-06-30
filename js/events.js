@@ -22,13 +22,7 @@ function submitIt(){
     alert('Your form is going to be submitted now.');
 });
 }
-/*
-function submitIt(){
-  $("#typing").trigger('submit').on("submit", function() {
-    alert('Your form is going to be submitted now.';
-});
-}
-*/
+
 $(document).ready(function(){
 
 getIt()
