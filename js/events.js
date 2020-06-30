@@ -16,15 +16,10 @@ function pressIt(){
   }
 });
 }
-/*
-function pressIt(){
-  $('input').on('keydown', function(key) {
-  if(key.which == 71){
-      alert('g was pressed');
-  });
-  }
+
+function submitIt(){
+
 }
-*/
 /*
 function submitIt(){
   $("#typing").trigger('submit').on("submit", function() {
