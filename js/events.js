@@ -8,6 +8,14 @@ function frameIt(){
   $('img').addClass('tasty').on('load', function(){
 });
 }
+
+function pressIt(){
+  $(document).on('keydown', function(key) {
+  if(key.which == 83){
+      alert('s was pressed');
+  }
+});
+}
 /*
 function pressIt(){
   $('input').on('keydown', function(key) {
