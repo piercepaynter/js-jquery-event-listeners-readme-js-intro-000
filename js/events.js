@@ -8,7 +8,7 @@ function frameIt(){
   $('img').addClass('tasty').on('load', function(){
 });
 }
-/*
+
 function pressIt(){
   $('input#typing').on('keydown', function(key) {
   if(key.which == 71){
@@ -16,13 +16,14 @@ function pressIt(){
   });
   }
 }
-*/
+
+/*
 function submitIt(){
   $("#typing").trigger('submit').on("submit", function() {
     alert('Your form is going to be submitted now.';
 });
 }
-
+*/
 $(document).ready(function(){
 
 getIt()
